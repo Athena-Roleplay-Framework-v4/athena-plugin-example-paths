@@ -1,8 +1,8 @@
 import * as alt from 'alt-server';
-import { Athena } from '../../../server/api/athena';
-import { command } from '../../../server/decorators/commands';
-import { PluginSystem } from '../../../server/systems/plugins';
-import { PERMISSIONS } from '../../../shared/flags/permissionFlags';
+import { Athena } from '@AthenaServer/api/athena';
+import { command } from '@AthenaServer/decorators/commands';
+import { PluginSystem } from '@AthenaServer/systems/plugins';
+import { PERMISSIONS } from '@AthenaShared/flags/permissionFlags';
 const PLUGIN_NAME = 'Athena Roleplay Commands';
 
 class Commands {
